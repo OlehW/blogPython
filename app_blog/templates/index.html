@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% spaceless %}
+
+<div class="homepage-grid">
+    <div class="homepage-card-long">
+        <a href="{% url 'articles-list' %}">
+            <h4>Всі публікації</h4>
+        </a>
+    </div>
+</div>
+<h4>Категорії публікацій</h4>
+<div class="homepage-grid">
+    {% for category in categories %}
+    <div class="homepage-card">
+        <a href="{{ category.get_absolute_url }}">
+            <h3>{{ category.category }}</h3>
+        </a>
+    </div>
+    {% endfor %}
+</div>
+
+{% endspaceless %}
+{% endblock %}
