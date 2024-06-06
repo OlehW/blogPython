@@ -6,10 +6,9 @@
 {% spaceless %}
 
 <div>
-    <ol class="breadcrumb">
+    <ol class="custom-list">
         <li><a href="/">Головна</a></li>
         <li><a href="{% url 'articles-list' %}">Публікації</a></li>
-        <li><a href="{{ item.category.get_absolute_url }}">{{ item.category|upper }}</a></li>
         <li>{{ item.title|upper }}</li>
     </ol>
     <div>

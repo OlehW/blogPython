@@ -16,10 +16,33 @@ body {
     padding: 0;
 }
 
+.custom-list {
+    text-align: center;
+    background-color: #343a40; /* темний фон */
+    color: #ffffff; /* білий текст */
+    border-radius: 10px; /* закруглені кути */
+    padding: 15px; /* відступи від країв */
+}
+
+.custom-list li {
+    list-style: none; /* видалення маркерів списку */
+    margin-bottom: 10px; /* відступ між елементами списку */
+}
+
+.custom-list a {
+    color: #ffffff; /* білий колір для посилань */
+    text-decoration: none; /* видалення підкреслення */
+}
+
+.custom-list a:hover {
+    text-decoration: underline; /* підкреслення при наведенні */
+}
+
+
 .container {
     width: 60%;
     margin: 20px auto;
-    padding: 20px; /* Додано */
+    padding: 20px;
 }
 
 .navbar-default {
@@ -76,27 +99,6 @@ body {
     width: 100%;
     height: auto;
     max-width: 200px;
-}
-
-.breadcrumb {
-    background-color: transparent;
-    padding: 8px 15px;
-    margin: 0;
-    border-radius: 0;
-    list-style: none;
-}
-
-.breadcrumb li {
-    display: inline;
-}
-
-.breadcrumb li a {
-    color: #337ab7;
-    text-decoration: none;
-}
-
-.breadcrumb li a:hover {
-    color: #23527c;
 }
 
 .homepage-grid {
