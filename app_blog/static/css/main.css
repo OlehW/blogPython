@@ -18,24 +18,24 @@ body {
 
 .custom-list {
     text-align: center;
-    background-color: #343a40; /* темний фон */
-    color: #ffffff; /* білий текст */
-    border-radius: 10px; /* закруглені кути */
-    padding: 15px; /* відступи від країв */
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 10px; 
+    padding: 15px;
 }
 
 .custom-list li {
-    list-style: none; /* видалення маркерів списку */
-    margin-bottom: 10px; /* відступ між елементами списку */
+    list-style: none;
+    margin-bottom: 10px;
 }
 
 .custom-list a {
-    color: #ffffff; /* білий колір для посилань */
-    text-decoration: none; /* видалення підкреслення */
+    color: #ffffff; 
+    text-decoration: none; 
 }
 
 .custom-list a:hover {
-    text-decoration: underline; /* підкреслення при наведенні */
+    text-decoration: underline;
 }
 
 
